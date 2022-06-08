@@ -1,8 +1,3 @@
-const sayHello  = function (name) {
-  console.log("Hello, "+name);
+const isEven  = function (num) {
+  return num % 2 === 0;
 }
-
-sayHello("jane");
-sayHello("stacy");
-sayHello("sandra");
-sayHello("tina");
