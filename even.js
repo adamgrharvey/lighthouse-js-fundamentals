@@ -1,6 +1,6 @@
-const isEven  = function (num) {
-  return num % 2 === 0;
+const isOdd  = function (num) {
+  return num % 2 === 1;
 }
 
-console.log(isEven(10));
-console.log(isEven(11));
+console.log(isOdd(10));
+console.log(isOdd(11));
